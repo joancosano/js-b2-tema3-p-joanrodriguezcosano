@@ -6,7 +6,7 @@
 //Escribe aquí tu solución / escriviu aquí la vostra solució:
 
 
-class CookieApi {
+export class CookieApi {
 
     static EXPIRING_DAYS = 365;
 
@@ -51,5 +51,3 @@ class CookieApi {
     }
 
 }
-
-export { CookieApi };
