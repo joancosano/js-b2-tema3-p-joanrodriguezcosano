@@ -6,17 +6,14 @@
 
 export class ClipboardApi {
 
-    // Constructor
     constructor(clipboard = window.navigator.clipboard) {
         this.clipboard = clipboard;
     }
 
-    // Copiar texto
     async copy(text) {
         return await this.clipboard.writeText(text);
     }
 
-    // Leer texto
     async read() {
         return await this.clipboard.readText();
     }
